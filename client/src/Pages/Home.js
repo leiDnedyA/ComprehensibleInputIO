@@ -6,7 +6,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const react_1 = __importDefault(require("react"));
 const YoutubeEmbeded_1 = __importDefault(require("../Elements/YoutubeEmbeded"));
 const Home = () => {
-    return react_1.default.createElement("div", { className: "home" },
-        react_1.default.createElement(YoutubeEmbeded_1.default, { embedId: 'km9Il_-FHjw' }));
+    return <div className="home">
+        <YoutubeEmbeded_1.default embedId='km9Il_-FHjw'/>
+    </div>;
 };
 exports.default = Home;
